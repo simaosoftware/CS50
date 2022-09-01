@@ -18,3 +18,7 @@ int main(void)
         printf("You are average in losing!\n");
     }
 }
+
+//another conditional would be: switch (x) { case 5: printf("Five"); break; case 4: ... } meaning it breaks depending on input, not iterating the rest
+// one way of initializing with if and else in one line is -> int var = (condition) ? true : false
+                                                            // e.g int length = (whatever<2) ? length<3 : length>3
